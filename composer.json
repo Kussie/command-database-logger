@@ -1,10 +1,5 @@
 {
   "name": "kussie/command-database-logger",
-  "autoload": {
-    "psr-4": {
-      "Kussie\\CommandDatabaseLogger\\": "src/"
-    }
-  },
   "authors": [
     {
       "name": "Ben Kuskopf",
@@ -24,6 +19,16 @@
     "phpunit/phpunit": "^9.5",
     "pestphp/pest": "^1.21",
     "pestphp/pest-plugin-laravel": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kussie\\CommandDatabaseLogger\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kussie\\CommandDatabaseLogger\\Tests\\": "tests"
+    }
   },
   "extra": {
     "laravel": {
