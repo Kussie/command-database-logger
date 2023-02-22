@@ -25,6 +25,13 @@
     "pestphp/pest": "^1.21",
     "pestphp/pest-plugin-laravel": "^1.1"
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kussie\\CommandDatabaseLogger\\CommandLoggerServiceProvider"
+      ]
+    }
+  },
   "config": {
     "allow-plugins": {
       "pestphp/pest-plugin": true
